@@ -48,13 +48,14 @@ List<Map<String, dynamic>> data = [
         );
       }).toList(),
       options: CarouselOptions(
-        height: 150,
+        height: 250,
         aspectRatio: 16/9,
         viewportFraction: 0.8,
         enlargeFactor: 0.25,
         autoPlay: true,
         enlargeCenterPage: true, // 
-      )
+        
+      ),
     );
   }
 }
